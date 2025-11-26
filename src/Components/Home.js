@@ -3,11 +3,13 @@ import './Home.css'
 import photo1 from '../assets/Photo1.png';
 
 function Home() {
+    const name = "https://www.bing.com/images/search?view=detailV2&ccid=UrMqomBk&id=33E5866B0F62938708149B99FFC9312254EE72B4&thid=OIP.UrMqomBkTzjLqiQaDDNedAHaEK&mediaurl=https%3a%2f%2fprofluence.com%2fwp-content%2fuploads%2f2023%2f11%2fimg-sports-athletes.jpg&exph=1080&expw=1920&q=img&FORM=IRPRST&ck=C61C5334C97D7C5235ECE6F80BDBD447&selectedIndex=2&itb=0";
+
     return (
         <>
             <Navbar />
             <div className="OuterDiv">
-
+            <img src = {name}/>
 
                 <div>
                     <div>

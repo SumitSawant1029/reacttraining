@@ -25,6 +25,7 @@ body{
   text-decoration: none;
   padding: 0 10px;
   font-family: 'Motorola ScreenType', sans-serif;
+  z-index: 999;
 }
 
 .NavLinks a:hover {

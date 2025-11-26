@@ -1,14 +1,40 @@
-.innerDivSkills{
+
+.innerDivSkills {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    height: 40vh;
-   
+    flex-wrap: wrap;              
+    justify-content: center;      
+    gap: 20px;                    
+    padding: 20px;
 }
 
-.innerDivSkills div{
+.innerDivSkills div {
     border: 1px solid black;
-    border-radius: 2px;
-    width: 30%;
-    
+    border-radius: 8px;
+    flex: 1 1 250px;             
+    max-width: 300px;            
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.innerDivSkills div img {
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.innerDivSkills div a {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+.innerDivSkills div p {
+    margin-top: 8px;
+    font-size: 14px;
 }
