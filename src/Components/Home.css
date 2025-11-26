@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/motorola-screentype');
+                
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.OuterDiv {
+  display: flex;
+  flex: 1; /* Take remaining space */
+  width: 100%;
+  height: calc(100vh - 80px); /* Subtract navbar height (adjust as needed) */
+}
+
+.OuterDiv > div {
+  flex: 1; /* Each child takes equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.portfolio{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 100%;
+    width: 20%;
+    
+    
+}
+.portfolio a {
+    display: block;
+    height: 100%;
+    font-size: 9.5rem;
+    color: #f4b2b3b6 ;
+    z-index: -999;
+    cursor:default;
+    font-family: 'Motorola ScreenType', sans-serif;
+                                                
+                                                
+}
