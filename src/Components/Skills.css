@@ -1,0 +1,14 @@
+.innerDivSkills{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 40vh;
+   
+}
+
+.innerDivSkills div{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 30%;
+    
+}
