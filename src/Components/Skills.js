@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import './Skills.css';
 import react from '../assets/React.png';
-import game from '../assets/GameDevelopment.png';
+import game from '../assets/Photo.png';
 import database from '../assets/Database.png';
 import python from '../assets/Python.png';
 

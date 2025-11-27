@@ -13,6 +13,10 @@ function Navbar() {
             </div>
 
             <div className="NavLinks">
+              <span>
+
+                <i className='bxr  bx-list'></i>        
+              </span>
                 <Link to="/home" >Home</Link>
                 <Link to="/skills">Skills</Link>
                 <Link to="/service">Service</Link>

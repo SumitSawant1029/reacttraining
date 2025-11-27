@@ -1,0 +1,49 @@
+.outercontactdiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10vh 2vw;
+    width: 95vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outercontactdiv div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+#reachout{
+    color: #F58486;
+    font-size: 2rem;
+}
+
+.child a {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Motorola ScreenType', sans-serif;
+}
+
+.child p {
+   font-family: 'Motorola ScreenType', sans-serif;
+}
+
+.child input{
+    display: block;
+    width: 30vw;
+    height: 10%;
+    max-width: 100%;
+}
+
+.textboxContact {
+    width: 30vw;
+    height: 10%;
+    max-width: 100%;
+    height: 90px;
+}
