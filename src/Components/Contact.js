@@ -1,12 +1,13 @@
 import Navbar from "./Navbar";
 import './Contact.css';
+import contact from '../assets/contact.png';
 function Contact() {
     return (
         <>
-            <Navbar />
-            <div className="outercontactdiv">
+            
+            <div id="contact" className="outercontactdiv">
                 <div>
-                    1
+                    <img id ="ContactImage" src={contact}></img>
                 </div>
 
                 <div className="child" >
@@ -23,7 +24,7 @@ function Contact() {
                         <a className="ContactUsForm">Message</a><br />
                         <textarea className="textboxContact" type="textbox" ></textarea>
                         <br /><br />
-                        <button > Send Message</button>
+                        <button className="button" > Send Message</button>
 
                     </form>
 

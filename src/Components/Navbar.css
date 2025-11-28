@@ -6,6 +6,23 @@ html, body {
   margin: 0;
 }
 
+#DownloadCV{
+  background-color: #EFF8FF;
+  font-family: 'Motorola ScreenType', sans-serif;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 0;
+}
+
+#DownloadCV:hover {
+  color:#F58486;
+  font-family: 'Motorola ScreenType', sans-serif;
+  font-size: x-large;
+  border-radius: 10px;
+  cursor:pointer;
+  
+}
+
 body{
   background-color: #EFF8FF;
 }

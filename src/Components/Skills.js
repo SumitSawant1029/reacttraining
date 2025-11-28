@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+
 import './Skills.css';
 import react from '../assets/React.png';
 import game from '../assets/Photo.png';
@@ -6,45 +6,44 @@ import database from '../assets/Database.png';
 import python from '../assets/Python.png';
 
 function Skills() {
-
     const skills = [
-        { skill: "Software Developer", img: react, projectMade: "Portfolio Website" },
-        { skill: "React Developer", img: react, projectMade: "E-commerce App" },
-        { skill: "Node.js Developer", img: database, projectMade: "REST API Service" },
-        { skill: "Python Developer", img: python, projectMade: "Data Analysis Tool" },
-        { skill: "Database Designer", img: database, projectMade: "Inventory Management System" },
-        { skill: "Game Developer", img:game, projectMade: "2D Platformer Game" }
+        { skill: "Software Developer", img: react, projectMade: "Portfolio Website", Description: "Lorem ipsum..." },
+        { skill: "React Developer", img: react, projectMade: "E-commerce App", Description: "" },
+        { skill: "Node.js Developer", img: database, projectMade: "REST API Service", Description: "" },
+        { skill: "Python Developer", img: python, projectMade: "Data Analysis Tool", Description: "" },
+        { skill: "Database Designer", img: database, projectMade: "Inventory Management System", Description: "" },
+        { skill: "Game Developer", img: game, projectMade: "2D Platformer Game", Description: "" }
     ];
 
     return (
         <>
-            <Navbar />
-            <div style={{ padding: '10px 10px' }}>
+            <div id="skills" className="skills">
                 <div className="innerDivSkills">
-                    {skills.slice(0,3).map((a,index)=>(
-                        <div id = {index}>
-                            <a>{a.skill}</a>
-                            <img src={a.img}></img>
-                            <p>{a.projectMade}</p>
+                    {skills.map((a, index) => (
+                        <div key={index} className={`skill-card ${index % 2 === 0 ? 'left' : 'right'}`}>
+                            {index % 2 === 0 ? (
+                                <>
+                                    <img src={a.img} alt={a.skill} />
+                                    <div>
+                                        <a>{a.skill}</a>
+                                        <p>{a.projectMade}</p>
+                                    </div>
+                                </>
+                            ) : (
+                                <>
+                                    <div>
+                                        <a>{a.skill}</a>
+                                        <p>{a.projectMade}</p>
+                                    </div>
+                                    <img src={a.img} alt={a.skill} />
+                                </>
+                            )}
                         </div>
                     ))}
-                   
                 </div>
-                <div className="innerDivSkills">
-
-                    {skills.slice(3,6).map((a,index)=>(
-                        <div id = {index}>
-                            <a>{a.skill}</a>
-                            <img src={a.img}></img>
-                            <p>{a.projectMade}</p>
-                        </div>
-                    ))}
-                </div>
-
-
             </div>
         </>
-    )
+    );
 }
 
 export default Skills;

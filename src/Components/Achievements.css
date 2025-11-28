@@ -1,0 +1,31 @@
+*{
+    font-family: 'Motorola ScreenType', sans-serif;
+}
+
+.achievementOuterDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+#achievements{
+    width: 70vw;
+    height: 100vh;
+}
+
+#achievementsImage{
+    width: 30vw;
+    height: 100vh;
+}
+
+.subdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.subdiv div {
+    width: 100%;
+    height: 100%;
+}

@@ -1,40 +1,48 @@
 
-.innerDivSkills {
-    display: flex;
-    flex-wrap: wrap;              
-    justify-content: center;      
-    gap: 20px;                    
+.skills {
     padding: 20px;
 }
 
-.innerDivSkills div {
-    border: 1px solid black;
-    border-radius: 8px;
-    flex: 1 1 250px;             
-    max-width: 300px;            
+.innerDivSkills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 15px;
     box-sizing: border-box;
 }
 
-.innerDivSkills div img {
-    width: 150px;
+.skill-card img {
+    width: 40%;
     height: auto;
-    margin: 10px 0;
 }
 
-.innerDivSkills div a {
+.skill-card a {
     font-weight: bold;
     margin-bottom: 8px;
     text-decoration: none;
     color: #333;
 }
 
-.innerDivSkills div p {
+.skill-card p {
     margin-top: 8px;
     font-size: 14px;
+}
+
+
+.skill-card.left {
+    justify-content: flex-start;
+}
+
+.skill-card.right {
+    justify-content: flex-end;
 }

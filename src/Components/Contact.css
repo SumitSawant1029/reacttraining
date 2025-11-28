@@ -1,13 +1,18 @@
 .outercontactdiv {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5%;
     padding: 10vh 2vw;
     width: 95vw;
     height: 70vh;
     justify-content: center;
     align-items: center;
 
+}
+
+#ContactImage{
+    width: 100%;
+    height: 95%;
 }
 
 .outercontactdiv div {
@@ -37,13 +42,31 @@
 .child input{
     display: block;
     width: 30vw;
-    height: 10%;
+    font-size: 1rem;
+    height: 30px;
     max-width: 100%;
+    background-color:#EFF8FF ;
+    border:1px solid  black;
+    font-family:'Motorola ScreenType', sans-serif ;
 }
 
 .textboxContact {
     width: 30vw;
-    height: 10%;
+    height: 50px;
     max-width: 100%;
     height: 90px;
+    font-size: 1rem;
+    max-height: 100%;
+    background-color:#EFF8FF ;
+    border:1px solid  black;
+    font-family:'Motorola ScreenType', sans-serif ;
 }
+
+.button{
+    background-color: #F58486;
+    font-family: 'Motorola ScreenType', sans-serif;
+    border: 0;
+    width: 30vw;
+    height: 30px;
+}
+
