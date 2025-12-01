@@ -2,6 +2,24 @@
     font-family: 'Motorola ScreenType', sans-serif;
 }
 
+.header{
+    color: #F58486;
+}
+
+.description{
+    color: gray;
+}
+
+
+
+.midheader{
+    font-size: larger;
+}
+
+.year{
+    color: gray;
+}
+
 .achievementOuterDiv{
     display: flex;
     flex-direction: row;
