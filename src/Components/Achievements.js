@@ -34,7 +34,6 @@ function Achievements() {
                             </div>
                         </div>
                         <div>
-                            //hi
                             <h2 className='header'>Awards</h2>
                             <div>
                                 <a className='year'>2023</a><br/>
