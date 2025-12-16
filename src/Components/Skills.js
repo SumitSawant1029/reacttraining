@@ -39,11 +39,12 @@ function Skills() {
                                 </>
                             )}
                         </div>
+                        
                     ))}
                 </div>
             </div>
 
-            
+
         </>
     );
 }
